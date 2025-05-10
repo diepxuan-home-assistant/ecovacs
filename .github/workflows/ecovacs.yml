@@ -38,9 +38,8 @@ jobs:
 
       - name: Copy ecovacs component into current repo
         run: |
-          rm -rf homeassistant/components/ecovacs
-          mkdir -p homeassistant/components
           cp -r temp-core/homeassistant/components/ecovacs/* ./
+          rm -rf temp-core
 
       - name: Commit changes if any
         env:
