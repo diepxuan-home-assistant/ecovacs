@@ -1,15 +1,15 @@
 name: Ecovacs
 
 on:
-  push:
-    branches: [main, dev]
+  # push:
+    # branches: [main, dev]
     # paths:
     # - "src/debian/changelog"
     # paths-ignore:
       # - "**/changelog"
       # - "**.md"
-  pull_request:
-    branches: [main, dev]
+  # pull_request:
+    # branches: [main, dev]
     # paths:
     # - "src/debian/changelog"
     # paths-ignore:
